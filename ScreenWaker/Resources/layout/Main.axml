@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/MainLayout"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <Button
+        android:id="@+id/BtnStartService"
+        android:layout_width="155dp"
+        android:layout_centerVertical="true"
+        android:layout_height="155dp"
+        android:layout_centerInParent="true" />
+    <TextView
+        android:text="AÇIK/KAPALI"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/BtnStartService"
+        android:id="@+id/statusText"
+        android:layout_marginBottom="50dp"
+        android:textSize="50sp"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:text="Click to Open/Close"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/BtnStartService"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/openCloseText"
+        android:layout_marginTop="10dp" />
+    <TextView
+        android:text="@string/Warning"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/warningText"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:textColor="@android:color/holo_red_light" />
+</RelativeLayout>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+  <string name="StartService">Started Knock Knock Sensor !</string>
+  <string name="StopService">Stopped Knock Knock Sensor !</string>
+  <string name="ApplicationName">Knock Knock Screen</string>
+  <string name="Developer">Emre ARDIÇ</string>
+  <string name="Active">ACTIVE</string>
+  <string name="Passive">PASSIVE</string>
+  <string name="ClickToOpen">Click to Open</string>
+  <string name="ClickToClose">Click to Close</string>
+  <string name="Warning">Warning: Battery may run out at long usage</string>
+  <string name="NotifText">Knock knock sensor is running. Click to deactivate.</string>
+</resources>

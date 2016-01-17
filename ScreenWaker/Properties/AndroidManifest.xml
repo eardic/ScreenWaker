@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="eardic.knockknockscreen" android:versionCode="1" android:versionName="1.0" android:installLocation="auto">
+	<uses-sdk android:minSdkVersion="15" />
+	<application android:label="@string/ApplicationName" android:icon="@drawable/Knock">
+		<service android:name="knockknockscreen.WakeUpService" android:enabled="true" />
+		<receiver android:name="knockknockscreen.WakeUpServiceReceiver" android:enabled="true">
+			<intent-filter>
+				<action android:name="android.intent.action.SCREEN_OFF" />
+			</intent-filter>
+		</receiver>
+	</application>
+	<uses-permission android:name="android.permission.WAKE_LOCK" />
+</manifest>

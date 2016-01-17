@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+  <string name="StartService">Tak Tak Sensörü Başlatıldı !</string>
+  <string name="StopService">Tak Tak Sensörü Durduruldu !</string>
+  <string name="ApplicationName">Tak Tak Ekran</string>
+  <string name="Developer">Emre ARDIÇ</string>
+  <string name="Active">AÇIK</string>
+  <string name="Passive">KAPALI</string>
+  <string name="ClickToOpen">Açmak için tıklayınız</string>
+  <string name="ClickToClose">Kapatmak için tıklayınız</string>
+  <string name="Warning">Uyarı: Uzun süreli kullanım pili tüketebilir</string>
+  <string name="NotifText">Tak tak sensörü çalışıyor. Kapatmak için tıklayın.</string>
+</resources>

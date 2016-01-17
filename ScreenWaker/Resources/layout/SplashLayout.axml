@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <ImageView
+        android:src="@drawable/knock"
+        android:layout_width="120dp"
+        android:id="@+id/ımageView1"
+        android:scaleType="centerInside"
+        android:cropToPadding="false"
+        android:layout_margin="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_height="120dp"
+        android:clickable="false"
+        android:focusable="false" />
+    <TextView
+        android:text="@string/ApplicationName"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/ımageView1"
+        android:id="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:textSize="35sp"
+        android:typeface="normal"
+        android:textStyle="normal"
+        android:editable="false"
+        android:focusable="false"
+        android:clickable="false"
+        android:textIsSelectable="false" />
+    <TextView
+        android:text="V1.0"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ımageView1"
+        android:id="@+id/versionText"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:text="@string/Developer"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/versionText"
+        android:id="@+id/DeveloperName"
+        android:layout_marginTop="10dp" />
+</RelativeLayout>
